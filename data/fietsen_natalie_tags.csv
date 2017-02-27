@@ -1,0 +1,83 @@
+Category;Category name change;Query_string;Object_type;"WANTED (1=YES; 2=NO)"
+highway_cycleway;cycleway;way[highway=cycleway];way;1
+highway_cycleway;cycleway;way[highway~'path$|^footway$'][bicycle=designated];way;2
+highway_cycleway;cycleway;way[highway=cycleway][moped~'^designated$|^yes$'];way;2
+highway_cycleway;cycleway;way[highway=cycleway][moped=no];way;1
+highway_cycleway;cycleway;way[highway=cycleway][mofa=no];way;1
+cycleway=cyclestreet;cycleway;way[cycleway=cyclestreet];way;1
+cycleway=cyclestreet;cycleway;way[cyclestreet=yes];way;1
+cycleway=cyclestreet;cycleway;way[cycleway~'track'][highway!=cycleway];way;1
+cycleway=cyclestreet;cycleway;way['cycleway:right'~'track'];way;1
+cycleway=cyclestreet;cycleway;way['cycleway:left'~'track'];way;1
+cycleway=cyclestreet;cycleway;way[cycleway=lane];way;1
+cycleway=cyclestreet;cycleway;way[cycleway=opposite_lane];way;1
+cycleway=cyclestreet;cycleway;way['cycleway:right'=opposite_lane];way;1
+cycleway=cyclestreet;cycleway;way['cycleway:left'=opposite_lane];way;1
+cycleway=cyclestreet;cycleway;way['cycleway:left'=lane];way;1
+cycleway=cyclestreet;cycleway;way[cycleway='shared_lane'];way;2
+cycleway=cyclestreet;cycleway;way[cycleway=share_busway];way;2
+cycleway=cyclestreet;cycleway;way[cycleway=opposite_share_busway];way;2
+cycleway=cyclestreet;cycleway;way['cycleway:left'='shared_lane'];way;2
+cycleway=cyclestreet;cycleway;way['cycleway:right'='shared_lane'];way;2
+oneway;cycleway;way[highway~'^unclas|^living|^resid|road|cycleway'][oneway~'yes|true|1|-1'][cycleway!~'.'][bicycle!=no]['bicycle:oneway'!=no]['oneway:bicycle'!=no];way;2
+oneway;cycleway;way['bicycle:oneway'~'yes|true|1|-1'];way;2
+oneway;cycleway;way['oneway:bicycle'~'yes|true|1|-1'];way;2
+oneway;cycleway;way['oneway:bicycle'=no];way;2
+oneway;cycleway;way[cycleway~'opposite'];way;2
+oneway;cycleway;way['bicycle:oneway'= no];way;2
+oneway;cycleway;way[bicycle~'^designated$|^yes$'][highway~'^footway$|^pedestrian$|^path$|^track$|^steps$'];way;2
+oneway;cycleway;way['ramp:bicycle'=yes];way;2
+pois;bicyle shop;node[shop=bicycle];node;1
+pois;bicyle shop;way[shop=bicycle];way;1
+pois;bicycle parking/ rental;node[amenity~'bicycle'];node;1
+pois;bicycle parking/ rental;way[amenity~'bicycle'];way;1
+pois;barrier;node[barrier=bollard];node;1
+pois;barrier;node[barrier][barrier!=bollard];node;1
+non cyclable ways;;way[bicycle=dismount];way;2
+non cyclable ways;;node[bicycle=dismount];node;2
+non cyclable ways;;way[bicycle~'no|use_sidepath'];way;2
+non cyclable ways;;way[highway][access~'^no|^priv'][vehicle!~'yes'][bicycle!~'^no|^yes|^desig|^offic|^destin|^permis'][mtb!~'^yes|^desig|^offic|^destin|^permis']['mtb:scale'!~'^'];way;2
+non cyclable ways;;way[highway~'^foot|^path|^pedes|^platform|^steps|^bridleway|^prop|^constr'][access! ~'^no|^priv'][bicycle!~'^no|^yes|^desig|^offic|^destin|^permis'][mtb!~'^yes|^desig|^offic|^destin|^permis']['ramp:bicycle'!~'yes'];way;2
+non cyclable ways;;way[highway=track][horse=designated][access! ~'^no|^priv'][bicycle!~'^no|^yes|^desig|^offic|^destin|^permis'][mtb!~'^yes|^desig|^offic|^destin|^permis']['mtb:scale'!~'^'][route!=mtb];way;2
+non cyclable ways;;way[bicycle=use_sidepath];way;2
+non cyclable ways;;way[bicycle=no];way;2
+highways;streets;way[highway=motorway];way;2
+highways;streets;way[highway=trunk];way;2
+highways;streets;way[highway=primary];way;2
+highways;streets;way[highway=secondary];way;2
+highways;streets;way[highway=tertiary];way;2
+highways;streets;way[highway=unclassified];way;2
+highways;streets;way[highway=residential];way;2
+highways;streets;way[highway=motorway_link];way;2
+highways;streets;way[highway=trunk_link];way;2
+highways;streets;way[highway=primary_link];way;2
+highways;streets;way[highway=secondary_link];way;2
+highways;streets;way[highway=tertiary_link];way;2
+highways;streets;way[highway=living_street];way;2
+highways;streets;way[highway=track];way;2
+highways;streets;way[highway=bus_guideway];way;2
+highways;streets;way[highway=road];way;2
+tracks & track type;;way[tracktype=grade1];way;2
+tracks & track type;;way[tracktype=grade2];way;2
+tracks & track type;;way[tracktype=grade3];way;2
+tracks & track type;;way[tracktype=grade4];way;2
+tracks & track type;;way[tracktype=grade5];way;2
+tracks & track type;;way[highway=track][tracktype!~'^grade'];way;2
+tracks & track type;;way[highway=track][cycleway];way;2
+ surface on paths & tracks;;way[highway~'^cycle|^foot|^path|^pedestrian|^track'][surface~'^asphalt|^pav|^concrete'];way;2
+ surface on paths & tracks;;way[surface~'^cob'];way;2
+ surface on paths & tracks;;way[surface~'^fine_gravel|.shell.'];way;2
+ surface on paths & tracks;;way[surface~'^gravel|^compact|^loam'];way;2
+ surface on paths & tracks;;way[surface~'^grass|^ground|^unpaved|^dirt|^earth|^sand|^woodchips|^pebble'];way;2
+ surface on paths & tracks;;way[smoothness=bad](bbox);way;2
+ surface on paths & tracks;;way[smoothness~'^very_bad|^horrible|^very_horrible|^impassable'](bbox);way;2
+route=hiking, horse;;way[railway~'^abandoned|^disused|^dismantled'];way;2
+route=hiking, horse;;node[tourism=information];node;2
+non cyclable ways;;way[bicycle=no];way;2
+non cyclable ways;;way[highway][access~'^no|^priv'][vehicle!~'yes'][bicycle!~'^no|^yes|^desig|^offic|^destin|^permis'][mtb!~'^yes|^desig|^offic|^destin|^permis']['mtb:scale'!~'^'];way;2
+non cyclable ways;;way[highway~'^foot|^path|^pedes|^platform|^steps|^bridleway|^prop|^constr'][access! ~'^no|^priv'][bicycle!~'^no|^yes|^desig|^offic|^destin|^permis'][mtb!~'^yes|^desig|^offic|^destin|^permis']['ramp:bicycle'!~'yes'];way;2
+non cyclable ways;;way[highway=track][horse=designated][access! ~'^no|^priv'][bicycle!~'^no|^yes|^desig|^offic|^destin|^permis'][mtb!~'^yes|^desig|^offic|^destin|^permis']['mtb:scale'!~'^'][route!=mtb](bbox);way;2
+cyclable ways;;way[highway][highway!~'^motorway|^trunk|^foot|^path|^pedes|^platform|^steps|^bridleway|^prop|^constr'][access!~'^no|^priv'][bicycle!=no][horse!=designated][tracktype!~'grade4|grade5'];way;2
+cyclable ways;;"way[highway][access~'^no|^priv'][bicycle~'^yes|^desig|^offic|^destin|^permis'](bbox);node(w);way[highway~'^foot|^path|^pedes|^platform|^steps|^bridleway|^prop|^constr|^trunk|^motor'][bicycle~'^yes|^desig|^offic|^destin|^permis']";way;2
+cyclable ways;;"way[highway~'^foot|^path|^pedes|^platform|^steps|^bridleway|^prop|^constr'][mtb~'^yes|^desig|^offic|^destin|^permis'](bbox);node(w);way[highway=steps]['ramp:bicycle'=yes]";way;2
+cyclable ways;;way[route=ferry][bicycle!=no];way;2

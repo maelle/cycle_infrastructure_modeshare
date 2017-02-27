@@ -1,0 +1,258 @@
+City,Country,Year,Population,Walk,Bike,PT,Car
+Norway,Norway,2014.0,5109056.0,21.0,5.0,10.0,64.0
+Athens,Greece,2006.0,3627500.0,8.0,2.0,37.0,53.0
+Berlin,Germany,2008.0,3506239.0,30.0,13.0,26.0,31.0
+Madrid,Spain,2012.0,3233527.0,29.0,0.0,42.0,29.0
+West Midlands,United Kingdom,2011.0,2738100.0,10.0,2.0,18.0,70.0
+Greater Manchester,United Kingdom,2011.0,2685400.0,10.0,2.0,17.0,71.0
+West Yorkshire,United Kingdom,2013.0,2227400.0,5.0,1.0,31.0,63.0
+Paris,France,2008.0,2211297.0,47.0,3.0,33.0,17.0
+Bucharest,Romania,2007.0,194e4,22.0,1.0,53.0,24.0
+Stockholm,Sweden,2006.0,1889945.0,17.0,1.0,35.0,47.0
+Budapest,Hungary,2014.0,1744655.0,18.0,2.0,45.0,35.0
+Hamburg,Germany,2008.0,1735663.0,28.0,12.0,18.0,42.0
+Essex,United Kingdom,2011.0,1729200.0,9.0,2.0,18.0,71.0
+Lancashire,United Kingdom,2011.0,1461400.0,11.0,2.0,8.0,79.0
+Sevilla (Agglomeration),Spain,2007.0,145e4,31.0,2.0,14.0,53.0
+Lyon,France,2015.0,1375e3,34.0,2.0,19.0,45.0
+München,Germany,2008.0,1326807.0,28.0,14.0,21.0,37.0
+Sofia,Bulgaria,2010.0,1211348.0,14.0,3.0,32.0,51.0
+Marseille,France,2009.0,1177e3,34.0,1.0,11.0,54.0
+Brussels Capital Region,Belgium,2008.0,1136920.0,3.0,2.0,48.0,47.0
+Dublin,Ireland,2011.0,1110627.0,15.0,7.0,21.0,57.0
+Lille,France,2006.0,1093e3,32.0,2.0,10.0,57.0
+Bas-Rhin,France,2009.0,1057e3,25.0,6.0,8.0,61.0
+Köln,Germany,2006.0,989766.0,24.0,12.0,21.0,43.0
+Torino,Italy,2011.0,9e5,7.0,1.0,28.0,64.0
+Bordeaux,France,2009.0,881e3,21.0,3.0,9.0,67.0
+Gloucestershire,United Kingdom,2011.0,861700.0,12.0,4.0,6.0,78.0
+West Sussex,United Kingdom,2011.0,808900.0,11.0,3.0,13.0,73.0
+Valencia,Spain,2012.0,786189.0,41.0,4.0,23.0,32.0
+Thessaloniki,Greece,2010.0,78e4,10.0,10.0,25.0,55.0
+Leeds,United Kingdom,2010.0,770800.0,4.0,1.0,38.0,57.0
+Buckinghamshire,United Kingdom,2011.0,756600.0,9.0,2.0,12.0,77.0
+Kraków,Poland,2010.0,756183.0,25.0,1.0,46.0,28.0
+Amsterdam,Netherlands,2008.0,747093.0,20.0,22.0,20.0,38.0
+Lviv,Ukraine,2006.0,733989.0,34.0,1.0,39.0,26.0
+Riga,Latvia,2008.0,706413.0,19.0,2.0,34.0,45.0
+Sevilla,Spain,2011.0,702355.0,37.0,6.0,22.0,35.0
+Frankfurt,Germany,2008.0,68e4,31.0,11.0,20.0,38.0
+Palermo,Italy,2015.0,678492.0,12.0,1.0,9.0,78.0
+Region Nort-East Brabant,Netherlands,2014.0,664e3,0.0,30.0,6.0,64.0
+Oslo,Norway,2014.0,634463.0,32.0,5.0,26.0,37.0
+Wrocław,Poland,2011.0,632996.0,19.0,4.0,35.0,42.0
+Düsseldorf,Germany,2008.0,629005.0,27.0,11.0,22.0,40.0
+Helsinki,Finland,2013.0,613100.0,32.0,11.0,34.0,23.0
+Stuttgart,Germany,2009.0,592915.0,27.0,5.0,24.0,44.0
+Glasgow,United Kingdom,2011.0,592e3,27.0,1.0,33.0,39.0
+Copenhagen,Denmark,2014.0,591e3,17.0,30.0,20.0,33.0
+Rotterdam,Netherlands,2008.0,582951.0,18.0,16.0,17.0,49.0
+Nantes,France,2012.0,58e4,27.0,5.0,16.0,52.0
+Toulon,France,2008.0,575e3,27.0,1.0,5.0,67.0
+Málaga,Spain,2008.0,561e3,38.0,1.0,12.0,49.0
+Vilnius,Lithuania,2011.0,554192.0,36.0,1.0,25.0,38.0
+Poznań,Poland,2013.0,550742.0,13.0,4.0,43.0,40.0
+Bremen,Germany,2008.0,547735.0,21.0,25.0,14.0,40.0
+Gothenburg,Sweden,2014.0,543e3,24.0,7.0,28.0,41.0
+Sheffield,United Kingdom,2010.0,534500.0,10.0,1.0,34.0,55.0
+Tarragona,Spain,2006.0,528e3,49.0,1.0,4.0,46.0
+Hannover,Germany,2011.0,518386.0,25.0,19.0,18.0,38.0
+Leipzig,Germany,2008.0,515418.0,27.0,14.0,19.0,40.0
+Dresden,Germany,2008.0,512546.0,22.0,16.0,21.0,41.0
+Nice,France,2009.0,508e3,40.0,1.0,11.0,48.0
+Nürnberg,Germany,2011.0,506e3,23.0,11.0,22.0,44.0
+Den Haag,Netherlands,2008.0,475681.0,20.0,19.0,16.0,46.0
+Edinburgh,United Kingdom,2008.0,471650.0,34.0,2.0,19.0,45.0
+Gdańsk,Poland,2009.0,456967.0,21.0,2.0,38.0,39.0
+Portsmouth,United Kingdom,2008.0,442252.0,15.0,7.0,11.0,67.0
+Strasbourg,France,2009.0,439e3,33.0,8.0,12.0,47.0
+Bristol,United Kingdom,2013.0,437e3,21.0,14.0,16.0,49.0
+Murcia,Spain,2009.0,43e4,37.0,1.0,10.0,52.0
+Tallinn,Estonia,2009.0,414752.0,30.0,4.0,40.0,26.0
+Rouen,France,2007.0,396e3,26.0,1.0,8.0,65.0
+Grenoble,France,2010.0,393e3,31.0,4.0,17.0,49.0
+Grenoble Agglo,France,2010.0,393e3,31.0,4.0,16.0,49.0
+Rennes,France,2007.0,392e3,28.0,4.0,13.0,55.0
+Genevois Fancais,France,2007.0,378840.0,26.0,1.0,4.0,69.0
+Brno,Czech Republic,2014.0,377440.0,6.0,2.0,53.0,39.0
+Vorarlberg (Land/Region),Austria,2013.0,375282.0,19.0,15.0,14.0,52.0
+Bochum,Germany,2010.0,374737.0,18.0,6.0,20.0,56.0
+Bologna,Italy,2007.0,373026.0,21.0,7.0,26.0,46.0
+Lens,France,2006.0,368e3,28.0,2.0,4.0,66.0
+Bilbao,Spain,2006.0,353e3,60.0,1.0,28.0,11.0
+Wuppertal,Germany,2011.0,349470.0,15.0,2.0,25.0,58.0
+Tours,France,2008.0,348e3,28.0,4.0,8.0,61.0
+Varna,Bulgaria,2011.0,343602.0,29.0,1.0,23.0,48.0
+Córdoba,Spain,2010.0,33e4,43.0,2.0,10.0,45.0
+Mannheim,Germany,2008.0,326964.0,27.0,13.0,16.0,44.0
+Bielefeld,Germany,2010.0,323270.0,15.0,15.0,16.0,54.0
+Bari,Italy,2013.0,322751.0,3.0,1.0,20.0,76.0
+Pamplona,Spain,2006.0,321e3,43.0,1.0,15.0,41.0
+Bonn,Germany,2008.0,317949.0,28.0,12.0,14.0,46.0
+Aix,France,2009.0,317e3,26.0,1.0,7.0,66.0
+Utrecht,Netherlands,2012.0,316e3,17.0,26.0,16.0,41.0
+Malmö,Sweden,2013.0,313e3,15.0,22.0,21.0,42.0
+Kaunas,Lithuania,2011.0,307e3,15.0,2.0,60.0,23.0
+Nottingham,United Kingdom,2011.0,303900.0,17.0,4.0,25.0,54.0
+Karlsruhe,Germany,2012.0,298e3,24.0,25.0,17.0,34.0
+Leicester,United Kingdom,2011.0,294700.0,28.0,2.0,35.0,35.0
+Münster,Germany,2007.0,28e4,16.0,38.0,10.0,36.0
+Newcastle,United Kingdom,2010.0,273600.0,30.0,1.0,39.0,30.0
+Bergen,Norway,2014.0,271949.0,26.0,3.0,16.0,55.0
+Le Havre,France,2007.0,267e3,34.0,1.0,8.0,57.0
+Verona,Italy,2008.0,265368.0,18.0,9.0,8.0,65.0
+Augsburg,Germany,2010.0,265e3,24.0,13.0,16.0,47.0
+Espoo,Finland,2012.0,260800.0,22.0,8.0,20.0,50.0
+Nancy,France,2013.0,258e3,36.0,1.0,12.0,51.0
+Graz,Austria,2013.0,257328.0,19.0,14.0,20.0,47.0
+Plymouth,United Kingdom,2010.0,256700.0,18.0,3.0,12.0,67.0
+Pointe-à-Pitre,France,2006.0,252869.0,22.0,1.0,10.0,67.0
+Ghent,Belgium,2012.0,251e3,24.0,20.0,9.0,47.0
+Parkstad Limburg,Netherlands,2013.0,249873.0,30.0,10.0,10.0,50.0
+Chemnitz,Germany,2008.0,249500.0,26.0,6.0,14.0,54.0
+Aachen,Germany,2012.0,249e3,22.0,12.0,15.0,51.0
+Lezíria do Tejo - Intermunicipal Community,Portugal,2011.0,247453.0,16.0,1.0,15.0,68.0
+Médio Tejo - Intermunicipal Community,Portugal,2011.0,247331.0,16.0,1.0,13.0,71.0
+A Coruña,Spain,2013.0,246146.0,48.0,2.0,13.0,37.0
+Messina,Italy,2006.0,245159.0,18.0,1.0,8.0,73.0
+Stoke-on-Trent,United Kingdom,2011.0,24e4,11.0,1.0,16.0,72.0
+Vitoria-Gasteiz,Spain,2014.0,24e4,54.0,13.0,8.0,25.0
+Halle (Saale),Germany,2008.0,238837.0,29.0,14.0,18.0,39.0
+Porto,Portugal,2011.0,237584.0,22.0,0.0,26.0,52.0
+Magdeburg,Germany,2008.0,234977.0,21.0,10.0,21.0,48.0
+Southampton,United Kingdom,2010.0,234100.0,14.0,3.0,24.0,59.0
+Halle,Germany,2010.0,233e3,26.0,12.0,18.0,44.0
+Ploiesti,Romania,2007.0,23e4,37.0,1.0,40.0,22.0
+Reims,France,2006.0,228e3,30.0,1.0,9.0,60.0
+Eindhoven,Netherlands,2014.0,220782.0,13.0,40.0,5.0,42.0
+Tampere,Finland,2012.0,220600.0,27.0,10.0,17.0,46.0
+Aberdeen,United Kingdom,2008.0,211e3,30.0,2.0,18.0,51.0
+Vantaa,Finland,2012.0,208100.0,25.0,9.0,18.0,48.0
+Beaujolais,France,2006.0,207e3,21.0,1.0,4.0,74.0
+Padua,Italy,2011.0,205631.0,5.0,16.0,22.0,57.0
+Douro - Intermunicipal Community,Portugal,2011.0,205157.0,19.0,0.0,15.0,66.0
+Debrecen,Hungary,2006.0,205e3,20.0,9.0,32.0,39.0
+Bouches-du-Rhône,France,2009.0,203e3,31.0,1.0,9.0,59.0
+Charleroi,Belgium,2008.0,202598.0,3.0,1.0,12.0,84.0
+Tilburg,Netherlands,2008.0,202091.0,14.0,23.0,6.0,57.0
+Trieste,Italy,2012.0,201814.0,19.0,1.0,20.0,60.0
+Mainz,Germany,2008.0,201500.0,28.0,10.0,21.0,41.0
+Erfurt,Germany,2008.0,201368.0,29.0,8.0,24.0,39.0
+Cork,Ireland,2011.0,198582.0,15.0,2.0,7.0,76.0
+Kassel,Germany,2008.0,198167.0,29.0,7.0,22.0,42.0
+York,United Kingdom,2011.0,197800.0,20.0,12.0,11.0,57.0
+Milton Keynes,United Kingdom,2009.0,195687.0,10.0,4.0,11.0,75.0
+Liege,Belgium,2008.0,192504.0,6.0,2.0,16.0,76.0
+Burgas,Bulgaria,2011.0,190830.0,22.0,8.0,34.0,36.0
+Linz,Austria,2008.0,19e4,22.0,5.0,24.0,49.0
+Parma,Italy,2010.0,187214.0,6.0,6.0,13.0,75.0
+Odense,Denmark,2008.0,187e3,19.0,27.0,26.0,28.0
+Donostia-San Sebastián,Spain,2011.0,186185.0,49.0,4.0,19.0,28.0
+Swindon,United Kingdom,2010.0,184e3,6.0,7.0,2.0,85.0
+Klaipeda,Lithuania,2007.0,183433.0,4.0,1.0,63.0,32.0
+Almere,Netherlands,2008.0,183270.0,16.0,19.0,13.0,52.0
+Groningen,Netherlands,2008.0,182484.0,15.0,31.0,10.0,44.0
+Hamm,Germany,2008.0,182459.0,11.0,17.0,11.0,61.0
+Trondheim,Norway,2014.0,181513.0,28.0,9.0,10.0,53.0
+Ulm/Neu-Ulm,Germany,2008.0,180205.0,23.0,11.0,16.0,50.0
+Breda,Netherlands,2013.0,180053.0,0.0,27.0,5.0,68.0
+Metropole Savoie,France,2006.0,18e4,26.0,2.0,5.0,67.0
+Burgos,Spain,2010.0,178500.0,45.0,4.0,23.0,28.0
+Saarbrücken,Germany,2010.0,175741.0,23.0,4.0,17.0,56.0
+Turku,Finland,2008.0,175e3,30.0,13.0,9.0,48.0
+Southend-on-Sea,United Kingdom,2011.0,174300.0,15.0,3.0,23.0,59.0
+Almada,Portugal,2006.0,174030.0,19.0,1.0,30.0,50.0
+Amiens,France,2010.0,174e3,33.0,2.0,7.0,58.0
+Brussels,Belgium,2010.0,171459.0,25.0,3.0,28.0,44.0
+Basel,Switzerland,2010.0,169464.0,29.0,20.0,28.0,23.0
+Szeged,Hungary,2009.0,169e3,22.0,9.0,47.0,22.0
+Osnabrück,Germany,2010.0,164405.0,19.0,12.0,16.0,53.0
+Peterborough,United Kingdom,2008.0,164e3,25.0,6.0,8.0,61.0
+Reggio Emilia,Italy,2012.0,163928.0,10.0,18.0,8.0,64.0
+Perugia,Italy,2011.0,162097.0,10.0,0.0,14.0,76.0
+Solingen,Germany,2008.0,161779.0,14.0,3.0,22.0,61.0
+Nijmegen,Netherlands,2008.0,161251.0,16.0,24.0,9.0,51.0
+Oldenburg,Germany,2007.0,159563.0,17.0,22.0,6.0,55.0
+Thurrock,United Kingdom,2011.0,158300.0,6.0,2.0,22.0,70.0
+Pécs,Hungary,2010.0,158e3,23.0,1.0,41.0,35.0
+Apeldoorn,Netherlands,2008.0,155108.0,13.0,28.0,4.0,55.0
+Sibiu,Romania,2007.0,155e3,51.0,2.0,16.0,31.0
+Enschede,Netherlands,2008.0,154753.0,15.0,26.0,4.0,55.0
+Ravenna,Italy,2012.0,154288.0,23.0,15.0,24.0,39.0
+Neuss,Germany,2012.0,153758.0,12.0,10.0,14.0,64.0
+Oxford,United Kingdom,2011.0,150200.0,19.0,19.0,21.0,41.0
+Potsdam,Germany,2008.0,149687.0,23.0,20.0,19.0,38.0
+Ruse,Bulgaria,2012.0,148502.0,44.0,2.0,21.0,33.0
+Blackburn with Darwen,United Kingdom,2011.0,147700.0,20.0,1.0,9.0,70.0
+Haarlem,Netherlands,2008.0,147640.0,15.0,26.0,10.0,49.0
+Saint Quentin en Yvelines,France,2010.0,146e3,31.0,2.0,15.0,52.0
+Salzburg,Austria,2012.0,145700.0,20.0,20.0,15.0,45.0
+Arnhem,Netherlands,2008.0,143582.0,15.0,19.0,10.0,56.0
+Darmstadt,Germany,2011.0,143499.0,27.0,15.0,13.0,45.0
+Zaanstad,Netherlands,2008.0,142863.0,15.0,25.0,7.0,53.0
+Oulu,Finland,2009.0,142e3,19.0,21.0,6.0,54.0
+Blackpool,United Kingdom,2010.0,141900.0,17.0,1.0,2.0,80.0
+Amersfoort,Netherlands,2008.0,141211.0,13.0,28.0,7.0,52.0
+Linköping,Sweden,2008.0,141200.0,15.0,20.0,10.0,55.0
+Haarlemmermeer,Netherlands,2008.0,140648.0,9.0,17.0,9.0,65.0
+Stara Zagora,Bulgaria,2011.0,140303.0,33.0,2.0,25.0,40.0
+Uppsala,Sweden,2010.0,140175.0,19.0,28.0,11.0,42.0
+Coimbra,Portugal,2006.0,14e4,12.0,1.0,18.0,69.0
+Heidelberg,Germany,2010.0,139200.0,20.0,25.0,18.0,37.0
+León,Spain,2009.0,137064.0,64.0,1.0,6.0,29.0
+'s-Hertogenbosch,Netherlands,2008.0,136481.0,14.0,19.0,7.0,60.0
+Ferrara,Italy,2008.0,135e3,12.0,27.0,5.0,56.0
+Wrexham (County Borough),United Kingdom,2011.0,134800.0,9.0,1.0,7.0,83.0
+Norwich,United Kingdom,2011.0,132512.0,25.0,10.0,10.0,55.0
+Jyväskylä,Finland,2009.0,130974.0,22.0,14.0,6.0,58.0
+Stavanger,Norway,2014.0,130754.0,24.0,8.0,10.0,58.0
+Šiauliai,Lithuania,2008.0,130020.0,40.0,1.0,21.0,38.0
+Norrköping,Sweden,2010.0,129985.0,18.0,13.0,10.0,59.0
+Tychy,Poland,2013.0,128621.0,3.0,6.0,36.0,55.0
+Ipswich,United Kingdom,2009.0,128e3,30.0,2.0,8.0,60.0
+Płock,Poland,2015.0,124e3,10.0,2.0,35.0,53.0
+Göttingen,Germany,2009.0,123594.0,25.0,27.0,13.0,35.0
+Heilbronn,Germany,2008.0,122302.0,20.0,8.0,12.0,60.0
+Ulm,Germany,2008.0,121648.0,28.0,9.0,11.0,52.0
+Reykjavik,Iceland,2014.0,121490.0,18.0,6.0,5.0,71.0
+Watford,United Kingdom,2008.0,121e3,22.0,2.0,10.0,66.0
+Offenbach am Main,Germany,2008.0,120500.0,26.0,9.0,13.0,52.0
+Zoetermeer,Netherlands,2008.0,119504.0,18.0,19.0,7.0,56.0
+Dordecht,Netherlands,2008.0,118182.0,18.0,22.0,5.0,55.0
+Maastricht,Netherlands,2008.0,118004.0,19.0,22.0,7.0,52.0
+Exeter,United Kingdom,2008.0,118e3,26.0,4.0,9.0,61.0
+Brugge,Belgium,2011.0,117e3,11.0,28.0,18.0,44.0
+Chambéry,France,2006.0,117e3,28.0,2.0,6.0,64.0
+Leiden,Netherlands,2008.0,116878.0,15.0,33.0,12.0,40.0
+Zwolle,Netherlands,2008.0,116365.0,11.0,30.0,8.0,51.0
+Panevėžys,Lithuania,2009.0,115315.0,40.0,1.0,21.0,38.0
+Fürth,Germany,2010.0,115e3,23.0,8.0,17.0,52.0
+Preston,United Kingdom,2006.0,114e3,23.0,2.0,10.0,65.0
+Włocławek,Poland,2013.0,113939.0,3.0,2.0,45.0,50.0
+Vienne,France,2006.0,113e3,20.0,1.0,5.0,74.0
+Reutlingen,Germany,2007.0,112258.0,22.0,15.0,10.0,53.0
+Chorzów,Poland,2011.0,111314.0,11.0,10.0,23.0,56.0
+Lund,Sweden,2007.0,110332.0,16.0,26.0,16.0,42.0
+Jena,Germany,2008.0,110097.0,39.0,10.0,16.0,35.0
+Shkoder,Albania,2011.0,11e4,44.0,29.0,3.0,24.0
+Umeå,Sweden,2006.0,11e4,16.0,19.0,8.0,57.0
+Emmen,Netherlands,2008.0,109151.0,12.0,25.0,2.0,61.0
+Namur,Belgium,2008.0,108950.0,6.0,2.0,22.0,70.0
+Londonderry / Derry,United Kingdom,2011.0,107877.0,10.0,1.0,5.0,84.0
+Ede,Netherlands,2008.0,107686.0,13.0,25.0,4.0,58.0
+Pleven,Bulgaria,2011.0,106854.0,57.0,1.0,21.0,21.0
+Gera,Germany,2008.0,105689.0,29.0,4.0,19.0,48.0
+Kaiserslautern,Germany,2008.0,105352.0,29.0,3.0,14.0,54.0
+Kalisz,Poland,2012.0,104867.0,3.0,6.0,36.0,55.0
+Bolzano,Italy,2009.0,104e3,29.0,29.0,8.0,34.0
+Tartu,Estonia,2009.0,103740.0,40.0,5.0,27.0,28.0
+Hildesheim,Germany,2007.0,103593.0,22.0,12.0,11.0,55.0
+Lahti,Finland,2010.0,101686.0,26.0,14.0,5.0,55.0
+Witten,Germany,2006.0,100248.0,16.0,3.0,13.0,68.0
+Antwerp,Belgium,2011.0,493517.0,20.0,23.0,16.0,41.0
+Barcelona,Spain,2012.0,1620943.0,32.0,2.0,40.0,26.0
+London,United Kingdom,2015.0,8673713.0,30.0,3.0,29.0,38.0
+Örebro,Sweden,2012.0,138952.0,11.0,25.0,9.0,55.0
+Rome,Italy,2014.0,2869461.0,16.0,1.0,29.0,54.0
+Wien,Austria,2015.0,1797337.0,28.0,6.0,39.0,27.0
+Zürich,Switzerland,2015.0,410404.0,26.0,4.0,34.0,36.0

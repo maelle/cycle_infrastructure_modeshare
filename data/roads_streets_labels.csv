@@ -1,0 +1,25 @@
+Category;Category name change;Query_string;Object_type;"WANTED (1=YES; 2=NO)"
+highway;motorway;;;1
+highway;trunk;;;1
+highway;primary;;;1
+highway;secondary;;;1
+highway;tertiary;;;1
+highway;unclassified;;;1
+highway;residential;;;1
+highway;service;;;2
+highway;motorway_link;;;1
+highway;trunk_link;;;1
+highway;primary_link;;;1
+highway;secondary_link;;;1
+highway;tertiary_link;;;1
+highway;living_street;;;1
+highway;pedestrian;;;2
+highway;track;;;1
+highway;bus_guideway;;;1
+highway;raceway;;;2
+highway;road;;;1
+highway;footway;;;2
+highway;bridleway;;;2
+highway;steps;;;2
+highway;path;;;2
+sidewalk;both / left / right / no;;;2
