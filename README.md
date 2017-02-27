@@ -20,7 +20,6 @@ Steps:
 
 -   Preparing mode share data from the two information sources [here](code/data_preparation.R) In this code for the PASTA cities information from tems is replaced with PASTA information.
 
--   Having a look at [mode share](code/data_exploration.R)
 
 -   [Finding cities boundaries](code/add_boundaries.R) This is done by country, with conditions because of some small issues we noticed along the way, e.g. using "Ciutat de Valencia" as city name for Valencia. For checking boundaries html maps were produced and looked at.
 
