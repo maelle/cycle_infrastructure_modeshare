@@ -48,7 +48,7 @@ p +
   theme(axis.text=element_blank(),axis.ticks=element_blank()) +
   scalebar(watershedDF, dist = 5, dd2km = TRUE, model = 'WGS84',
            location = "bottomleft", st.size = 3)+
-  north(data_merged, scale = 0.1, symbol = 12, location = "topleft")
+  north(data_merged, scale = 0.1, symbol = 12, location = "bottomright")
 
 ggsave(file = "maps/barcelona.png", width = 6, height = 6)
 
@@ -96,7 +96,7 @@ p +
   theme(axis.text=element_blank(),axis.ticks=element_blank()) +
   scalebar(watershedDF, dist = 5, dd2km = TRUE, model = 'WGS84',
            location = "bottomleft", st.size = 3)+
-  north(data_merged, scale = 0.1, symbol = 12, location = "topleft")
+  north(data_merged, scale = 0.1, symbol = 12, location = "bottomright")
 
 ggsave(file = "maps/zuerich.png", width = 6, height = 6)
 
@@ -144,7 +144,7 @@ p +
   theme(axis.text=element_blank(),axis.ticks=element_blank()) +
   scalebar(watershedDF, dist = 5, dd2km = TRUE, model = 'WGS84',
            location = "bottomleft", st.size = 3)+
-  north(data_merged, scale = 0.1, symbol = 12, location = "topleft")
+  north(data_merged, scale = 0.1, symbol = 12, location = "bottomright")
 
 ggsave(file = "maps/antwerp.png", width = 6, height = 6)
 
@@ -191,7 +191,7 @@ p +
   theme(axis.text=element_blank(),axis.ticks=element_blank()) +
   scalebar(watershedDF, dist = 5, dd2km = TRUE, model = 'WGS84',
            location = "bottomleft", st.size = 3)+
-  north(data_merged, scale = 0.1, symbol = 12, location = "topleft")
+  north(data_merged, scale = 0.1, symbol = 12, location = "bottomright")
 
 ggsave(file = "maps/oerebro.png", width = 6, height = 6)
 
@@ -237,7 +237,7 @@ p +
   theme(axis.text=element_blank(),axis.ticks=element_blank()) +
   scalebar(watershedDF, dist = 5, dd2km = TRUE, model = 'WGS84',
            location = "bottomleft", st.size = 3)+
-  north(data_merged, scale = 0.1, symbol = 12, location = "topleft")
+  north(data_merged, scale = 0.1, symbol = 12, location = "bottomright")
 
 ggsave(file = "maps/london.png", width = 6, height = 6)
 
@@ -284,7 +284,7 @@ p +
   theme(axis.text=element_blank(),axis.ticks=element_blank()) +
   scalebar(watershedDF, dist = 5, dd2km = TRUE, model = 'WGS84',
            location = "bottomleft", st.size = 3)+
-  north(data_merged, scale = 0.1, symbol = 12, location = "topleft")
+  north(data_merged, scale = 0.1, symbol = 12, location = "bottomright")
 
 ggsave(file = "maps/rom.png", width = 6, height = 6)
 
@@ -330,5 +330,5 @@ p +
   theme(axis.text=element_blank(),axis.ticks=element_blank()) +
   scalebar(watershedDF, dist = 5, dd2km = TRUE, model = 'WGS84',
            location = "bottomleft", st.size = 3)+
-  north(data_merged, scale = 0.1, symbol = 12, location = "topleft")
+  north(data_merged, scale = 0.1, symbol = 12, location = "bottomright")
 ggsave(file = "maps/wien.png", width = 6, height = 6)
