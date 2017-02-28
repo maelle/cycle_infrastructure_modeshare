@@ -38,7 +38,7 @@ p <- ggmap(get_map(location = c(min(watershedDF$long) - 0.01,
 p +
   geom_path(data=data_merged,size=1,
             aes(x=long,y=lat,group=group),
-            col = "red")+
+            col = "black")+
   geom_path(data=watershedDF,size=1,
             aes(x=long,y=lat,group=group),
             col = "purple")+
@@ -86,7 +86,7 @@ p <- ggmap(get_map(location = c(min(watershedDF$long) - 0.01,
 p +
   geom_path(data=data_merged,size=1,
             aes(x=long,y=lat,group=group),
-            col = "red")+
+            col = "black")+
   geom_path(data=watershedDF,size=1,
             aes(x=long,y=lat,group=group),
             col = "purple")+
@@ -134,7 +134,7 @@ p <- ggmap(get_map(location = c(min(watershedDF$long) - 0.01,
 p +
   geom_path(data=data_merged,size=1,
             aes(x=long,y=lat,group=group),
-            col = "red")+
+            col = "black")+
   geom_path(data=watershedDF,size=1,
             aes(x=long,y=lat,group=group),
             col = "purple")+
@@ -181,7 +181,7 @@ p <- ggmap(get_map(location = c(min(watershedDF$long) - 0.01,
 p +
   geom_path(data=data_merged,size=1,
             aes(x=long,y=lat,group=group),
-            col = "red")+
+            col = "black")+
   geom_path(data=watershedDF,size=1,
             aes(x=long,y=lat,group=group),
             col = "purple")+
@@ -227,7 +227,7 @@ p <- ggmap(get_map(location = c(min(watershedDF$long) - 0.01,
 p +
   geom_path(data=data_merged,size=1,
             aes(x=long,y=lat,group=group),
-            col = "red")+
+            col = "black")+
   geom_path(data=watershedDF,size=1,
             aes(x=long,y=lat,group=group),
             col = "purple")+
@@ -274,7 +274,7 @@ p <- ggmap(get_map(location = c(min(watershedDF$long) - 0.01,
 p +
   geom_path(data=data_merged,size=1,
             aes(x=long,y=lat,group=group),
-            col = "red")+
+            col = "black")+
   geom_path(data=watershedDF,size=1,
             aes(x=long,y=lat,group=group),
             col = "purple")+
@@ -320,7 +320,7 @@ p <- ggmap(get_map(location = c(min(watershedDF$long) - 0.01,
 p +
   geom_path(data=data_merged,size=1,
             aes(x=long,y=lat,group=group),
-            col = "red")+
+            col = "black")+
   geom_path(data=watershedDF,size=1,
             aes(x=long,y=lat,group=group),
             col = "purple")+
