@@ -36,10 +36,10 @@ p <- ggmap(get_map(location = c(min(watershedDF$long) - 0.01,
               maptype = "terrain",
               source = "stamen"))
 p +
-  geom_path(data=data_merged,size=1,
+  geom_path(data=data_merged,size=0.5,
             aes(x=long,y=lat,group=group),
             col = "black")+
-  geom_path(data=watershedDF,size=1,
+  geom_path(data=watershedDF,size=0.5,
             aes(x=long,y=lat,group=group),
             col = "purple")+
   labs(x="",y="")+
@@ -47,8 +47,8 @@ p +
   theme_void() +
   theme(axis.text=element_blank(),axis.ticks=element_blank()) +
   scalebar(watershedDF, dist = 5, dd2km = TRUE, model = 'WGS84',
-           location = "topleft", st.size = 3)+
-  north(data_merged, scale = 0.2)
+           location = "bottomleft", st.size = 3)+
+  north(data_merged, scale = 0.1, symbol = 12, location = "topleft")
 
 ggsave(file = "maps/barcelona.png", width = 6, height = 6)
 
@@ -84,10 +84,10 @@ p <- ggmap(get_map(location = c(min(watershedDF$long) - 0.01,
                    maptype = "terrain",
                    source = "stamen"))
 p +
-  geom_path(data=data_merged,size=1,
+  geom_path(data=data_merged,size=0.5,
             aes(x=long,y=lat,group=group),
             col = "black")+
-  geom_path(data=watershedDF,size=1,
+  geom_path(data=watershedDF,size=0.5,
             aes(x=long,y=lat,group=group),
             col = "purple")+
   labs(x="",y="")+
@@ -95,8 +95,8 @@ p +
   theme_void() +
   theme(axis.text=element_blank(),axis.ticks=element_blank()) +
   scalebar(watershedDF, dist = 5, dd2km = TRUE, model = 'WGS84',
-           location = "topleft", st.size = 3)+
-  north(data_merged, scale = 0.2)
+           location = "bottomleft", st.size = 3)+
+  north(data_merged, scale = 0.1, symbol = 12, location = "topleft")
 
 ggsave(file = "maps/zuerich.png", width = 6, height = 6)
 
@@ -132,10 +132,10 @@ p <- ggmap(get_map(location = c(min(watershedDF$long) - 0.01,
                    maptype = "terrain",
                    source = "stamen"))
 p +
-  geom_path(data=data_merged,size=1,
+  geom_path(data=data_merged,size=0.5,
             aes(x=long,y=lat,group=group),
             col = "black")+
-  geom_path(data=watershedDF,size=1,
+  geom_path(data=watershedDF,size=0.5,
             aes(x=long,y=lat,group=group),
             col = "purple")+
   labs(x="",y="")+
@@ -143,8 +143,8 @@ p +
   theme_void() +
   theme(axis.text=element_blank(),axis.ticks=element_blank()) +
   scalebar(watershedDF, dist = 5, dd2km = TRUE, model = 'WGS84',
-           location = "topleft", st.size = 3)+
-  north(data_merged, scale = 0.2, location = "bottomleft")
+           location = "bottomleft", st.size = 3)+
+  north(data_merged, scale = 0.1, symbol = 12, location = "topleft")
 
 ggsave(file = "maps/antwerp.png", width = 6, height = 6)
 
@@ -179,10 +179,10 @@ p <- ggmap(get_map(location = c(min(watershedDF$long) - 0.01,
                    maptype = "terrain",
                    source = "stamen"))
 p +
-  geom_path(data=data_merged,size=1,
+  geom_path(data=data_merged,size=0.5,
             aes(x=long,y=lat,group=group),
             col = "black")+
-  geom_path(data=watershedDF,size=1,
+  geom_path(data=watershedDF,size=0.5,
             aes(x=long,y=lat,group=group),
             col = "purple")+
   labs(x="",y="")+
@@ -190,8 +190,8 @@ p +
   theme_void() +
   theme(axis.text=element_blank(),axis.ticks=element_blank()) +
   scalebar(watershedDF, dist = 5, dd2km = TRUE, model = 'WGS84',
-           location = "topleft", st.size = 3)+
-  north(data_merged, scale = 0.2)
+           location = "bottomleft", st.size = 3)+
+  north(data_merged, scale = 0.1, symbol = 12, location = "topleft")
 
 ggsave(file = "maps/oerebro.png", width = 6, height = 6)
 
@@ -225,10 +225,10 @@ p <- ggmap(get_map(location = c(min(watershedDF$long) - 0.01,
                    maptype = "terrain",
                    source = "stamen"))
 p +
-  geom_path(data=data_merged,size=1,
+  geom_path(data=data_merged,size=0.5,
             aes(x=long,y=lat,group=group),
             col = "black")+
-  geom_path(data=watershedDF,size=1,
+  geom_path(data=watershedDF,size=0.5,
             aes(x=long,y=lat,group=group),
             col = "purple")+
   labs(x="",y="")+
@@ -236,8 +236,8 @@ p +
   theme_void() +
   theme(axis.text=element_blank(),axis.ticks=element_blank()) +
   scalebar(watershedDF, dist = 5, dd2km = TRUE, model = 'WGS84',
-           location = "topleft", st.size = 3)+
-  north(data_merged, scale = 0.2)
+           location = "bottomleft", st.size = 3)+
+  north(data_merged, scale = 0.1, symbol = 12, location = "topleft")
 
 ggsave(file = "maps/london.png", width = 6, height = 6)
 
@@ -272,10 +272,10 @@ p <- ggmap(get_map(location = c(min(watershedDF$long) - 0.01,
                    maptype = "terrain",
                    source = "stamen"))
 p +
-  geom_path(data=data_merged,size=1,
+  geom_path(data=data_merged,size=0.5,
             aes(x=long,y=lat,group=group),
             col = "black")+
-  geom_path(data=watershedDF,size=1,
+  geom_path(data=watershedDF,size=0.5,
             aes(x=long,y=lat,group=group),
             col = "purple")+
   labs(x="",y="")+
@@ -283,8 +283,8 @@ p +
   theme_void() +
   theme(axis.text=element_blank(),axis.ticks=element_blank()) +
   scalebar(watershedDF, dist = 5, dd2km = TRUE, model = 'WGS84',
-           location = "topleft", st.size = 3)+
-  north(data_merged, scale = 0.2)
+           location = "bottomleft", st.size = 3)+
+  north(data_merged, scale = 0.1, symbol = 12, location = "topleft")
 
 ggsave(file = "maps/rom.png", width = 6, height = 6)
 
@@ -318,10 +318,10 @@ p <- ggmap(get_map(location = c(min(watershedDF$long) - 0.01,
                    maptype = "terrain",
                    source = "stamen"))
 p +
-  geom_path(data=data_merged,size=1,
+  geom_path(data=data_merged,size=0.5,
             aes(x=long,y=lat,group=group),
             col = "black")+
-  geom_path(data=watershedDF,size=1,
+  geom_path(data=watershedDF,size=0.5,
             aes(x=long,y=lat,group=group),
             col = "purple")+
   labs(x="",y="")+
@@ -329,6 +329,6 @@ p +
   theme_void() +
   theme(axis.text=element_blank(),axis.ticks=element_blank()) +
   scalebar(watershedDF, dist = 5, dd2km = TRUE, model = 'WGS84',
-           location = "topleft", st.size = 3)+
-  north(data_merged, scale = 0.2)
+           location = "bottomleft", st.size = 3)+
+  north(data_merged, scale = 0.1, symbol = 12, location = "topleft")
 ggsave(file = "maps/wien.png", width = 6, height = 6)
