@@ -23,8 +23,9 @@ library("rgdal")
 library("rgeos")
 library("sp")
 library("tibble")
-library("viridis")
-
+library("viridis")   
+library("plyr")         
+library("ggsn")
 
 ############################################################
 #                                                          #

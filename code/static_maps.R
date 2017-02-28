@@ -1,8 +1,4 @@
-library(ggplot2)   
-library(ggmap)          # for ggmap(...) and get_map(...)
-library(rgdal)          # for readOGR(...)
-library(plyr)           # for join(...)
-library("ggsn")
+
 load("data/whatweget.RData")
 
 load("data/cities.RData")
@@ -37,19 +33,22 @@ p <- ggmap(get_map(location = c(min(watershedDF$long) - 0.01,
                            min(watershedDF$lat) - 0.01,
                            max(watershedDF$long) + 0.01,
                            max(watershedDF$lat) + 0.01),
-              source = "osm"))
-ggplot() + #p +
+              maptype = "terrain",
+              source = "stamen"))
+p +
   geom_path(data=data_merged,size=1,
-            aes(x=long,y=lat,group=group))+
+            aes(x=long,y=lat,group=group),
+            col = "red")+
   geom_path(data=watershedDF,size=1,
             aes(x=long,y=lat,group=group),
             col = "purple")+
   labs(x="",y="")+
+  coord_cartesian() +
   theme_void() +
   theme(axis.text=element_blank(),axis.ticks=element_blank()) +
   scalebar(watershedDF, dist = 5, dd2km = TRUE, model = 'WGS84',
-           location = "bottomright")+
-  north(data_merged)
+           location = "topleft", st.size = 3)+
+  north(data_merged, scale = 0.2)
 
 ggsave(file = "maps/barcelona.png", width = 6, height = 6)
 
@@ -79,21 +78,25 @@ watershedDF <- merge(watershedPoints, shp_boundaries@data, by = "id")
 
 
 p <- ggmap(get_map(location = c(min(watershedDF$long) - 0.01,
-                           min(watershedDF$lat) - 0.01,
-                           max(watershedDF$long) + 0.01,
-                           max(watershedDF$lat) + 0.01),
-              source = "osm"))
-p+
+                                min(watershedDF$lat) - 0.01,
+                                max(watershedDF$long) + 0.01,
+                                max(watershedDF$lat) + 0.01),
+                   maptype = "terrain",
+                   source = "stamen"))
+p +
   geom_path(data=data_merged,size=1,
-            aes(x=long,y=lat,group=group))+
+            aes(x=long,y=lat,group=group),
+            col = "red")+
   geom_path(data=watershedDF,size=1,
             aes(x=long,y=lat,group=group),
             col = "purple")+
   labs(x="",y="")+
+  coord_cartesian() +
+  theme_void() +
   theme(axis.text=element_blank(),axis.ticks=element_blank()) +
   scalebar(watershedDF, dist = 5, dd2km = TRUE, model = 'WGS84',
-           location = "bottomright")+
-  north(data_merged)
+           location = "topleft", st.size = 3)+
+  north(data_merged, scale = 0.2)
 
 ggsave(file = "maps/zuerich.png", width = 6, height = 6)
 
@@ -123,23 +126,25 @@ watershedDF <- merge(watershedPoints, shp_boundaries@data, by = "id")
 
 
 p <- ggmap(get_map(location = c(min(watershedDF$long) - 0.01,
-                           min(watershedDF$lat) - 0.01,
-                           max(watershedDF$long) + 0.01,
-                           max(watershedDF$lat) + 0.01),
-              source = "osm"))
-
-ggplot() + #p +
+                                min(watershedDF$lat) - 0.01,
+                                max(watershedDF$long) + 0.01,
+                                max(watershedDF$lat) + 0.01),
+                   maptype = "terrain",
+                   source = "stamen"))
+p +
   geom_path(data=data_merged,size=1,
-            aes(x=long,y=lat,group=group))+
+            aes(x=long,y=lat,group=group),
+            col = "red")+
   geom_path(data=watershedDF,size=1,
             aes(x=long,y=lat,group=group),
             col = "purple")+
   labs(x="",y="")+
+  coord_cartesian() +
+  theme_void() +
   theme(axis.text=element_blank(),axis.ticks=element_blank()) +
   scalebar(watershedDF, dist = 5, dd2km = TRUE, model = 'WGS84',
-           location = "bottomright")+
-  north(data_merged)
-
+           location = "topleft", st.size = 3)+
+  north(data_merged, scale = 0.2)
 
 ggsave(file = "maps/antwerp.png", width = 6, height = 6)
 
@@ -167,24 +172,26 @@ watershedPoints <- fortify(shp_boundaries, region = "id")
 watershedDF <- merge(watershedPoints, shp_boundaries@data, by = "id")
 
 
-
-p <- ggmap(get_map(location = c(min(watershedDF$long) - 0.05,
-                           min(watershedDF$lat) - 0.05,
-                           max(watershedDF$long) + 0.05,
-                           max(watershedDF$lat) + 0.05),
-              source = "osm"))
-
-ggplot() + #p +
+p <- ggmap(get_map(location = c(min(watershedDF$long) - 0.01,
+                                min(watershedDF$lat) - 0.01,
+                                max(watershedDF$long) + 0.01,
+                                max(watershedDF$lat) + 0.01),
+                   maptype = "terrain",
+                   source = "stamen"))
+p +
   geom_path(data=data_merged,size=1,
-            aes(x=long,y=lat,group=group))+
+            aes(x=long,y=lat,group=group),
+            col = "red")+
   geom_path(data=watershedDF,size=1,
             aes(x=long,y=lat,group=group),
             col = "purple")+
   labs(x="",y="")+
+  coord_cartesian() +
+  theme_void() +
   theme(axis.text=element_blank(),axis.ticks=element_blank()) +
   scalebar(watershedDF, dist = 5, dd2km = TRUE, model = 'WGS84',
-           location = "bottomright")+
-  north(data_merged)
+           location = "topleft", st.size = 3)+
+  north(data_merged, scale = 0.2)
 
 ggsave(file = "maps/oerebro.png", width = 6, height = 6)
 
@@ -211,25 +218,26 @@ watershedPoints <- fortify(shp_boundaries, region = "id")
 # merge the "fortified" data with the data from our spatial object
 watershedDF <- merge(watershedPoints, shp_boundaries@data, by = "id")
 
-
-
-p <- ggmap(get_map(location = c(min(watershedDF$long) - 0.05,
-                           min(watershedDF$lat) - 0.05,
-                           max(watershedDF$long) + 0.05,
-                           max(watershedDF$lat) + 0.05),
-              source = "osm"))
-
-ggplot() + #p +
+p <- ggmap(get_map(location = c(min(watershedDF$long) - 0.01,
+                                min(watershedDF$lat) - 0.01,
+                                max(watershedDF$long) + 0.01,
+                                max(watershedDF$lat) + 0.01),
+                   maptype = "terrain",
+                   source = "stamen"))
+p +
   geom_path(data=data_merged,size=1,
-            aes(x=long,y=lat,group=group))+
+            aes(x=long,y=lat,group=group),
+            col = "red")+
   geom_path(data=watershedDF,size=1,
             aes(x=long,y=lat,group=group),
             col = "purple")+
   labs(x="",y="")+
+  coord_cartesian() +
+  theme_void() +
   theme(axis.text=element_blank(),axis.ticks=element_blank()) +
   scalebar(watershedDF, dist = 5, dd2km = TRUE, model = 'WGS84',
-           location = "bottomright")+
-  north(data_merged)
+           location = "topleft", st.size = 3)+
+  north(data_merged, scale = 0.2)
 
 ggsave(file = "maps/london.png", width = 6, height = 6)
 
@@ -257,25 +265,26 @@ watershedPoints <- fortify(shp_boundaries, region = "id")
 # merge the "fortified" data with the data from our spatial object
 watershedDF <- merge(watershedPoints, shp_boundaries@data, by = "id")
 
-
-
-ggmap(get_map(location = c(min(watershedDF$long) - 0.05,
-                           min(watershedDF$lat) - 0.05,
-                           max(watershedDF$long) + 0.05,
-                           max(watershedDF$lat) + 0.05),
-              source = "osm"))
-
-ggplot()+
+p <- ggmap(get_map(location = c(min(watershedDF$long) - 0.01,
+                                min(watershedDF$lat) - 0.01,
+                                max(watershedDF$long) + 0.01,
+                                max(watershedDF$lat) + 0.01),
+                   maptype = "terrain",
+                   source = "stamen"))
+p +
   geom_path(data=data_merged,size=1,
-            aes(x=long,y=lat,group=group))+
+            aes(x=long,y=lat,group=group),
+            col = "red")+
   geom_path(data=watershedDF,size=1,
             aes(x=long,y=lat,group=group),
             col = "purple")+
   labs(x="",y="")+
+  coord_cartesian() +
+  theme_void() +
   theme(axis.text=element_blank(),axis.ticks=element_blank()) +
   scalebar(watershedDF, dist = 5, dd2km = TRUE, model = 'WGS84',
-           location = "bottomright")+
-  north(data_merged)
+           location = "topleft", st.size = 3)+
+  north(data_merged, scale = 0.2)
 
 ggsave(file = "maps/rom.png", width = 6, height = 6)
 
@@ -302,24 +311,24 @@ watershedPoints <- fortify(shp_boundaries, region = "id")
 # merge the "fortified" data with the data from our spatial object
 watershedDF <- merge(watershedPoints, shp_boundaries@data, by = "id")
 
-
-
-ggmap(get_map(location = c(min(watershedDF$long) - 0.05,
-                           min(watershedDF$lat) - 0.05,
-                           max(watershedDF$long) + 0.05,
-                           max(watershedDF$lat) + 0.05),
-              source = "osm"))
-
-ggplot() +
+p <- ggmap(get_map(location = c(min(watershedDF$long) - 0.01,
+                                min(watershedDF$lat) - 0.01,
+                                max(watershedDF$long) + 0.01,
+                                max(watershedDF$lat) + 0.01),
+                   maptype = "terrain",
+                   source = "stamen"))
+p +
   geom_path(data=data_merged,size=1,
-            aes(x=long,y=lat,group=group))+
+            aes(x=long,y=lat,group=group),
+            col = "red")+
   geom_path(data=watershedDF,size=1,
             aes(x=long,y=lat,group=group),
             col = "purple")+
   labs(x="",y="")+
+  coord_cartesian() +
+  theme_void() +
   theme(axis.text=element_blank(),axis.ticks=element_blank()) +
   scalebar(watershedDF, dist = 5, dd2km = TRUE, model = 'WGS84',
-           location = "bottomright")+
-  north(data_merged)
-
+           location = "topleft", st.size = 3)+
+  north(data_merged, scale = 0.2)
 ggsave(file = "maps/wien.png", width = 6, height = 6)
