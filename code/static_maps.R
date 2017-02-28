@@ -144,7 +144,7 @@ p +
   theme(axis.text=element_blank(),axis.ticks=element_blank()) +
   scalebar(watershedDF, dist = 5, dd2km = TRUE, model = 'WGS84',
            location = "topleft", st.size = 3)+
-  north(data_merged, scale = 0.2)
+  north(data_merged, scale = 0.2, location = "bottomleft")
 
 ggsave(file = "maps/antwerp.png", width = 6, height = 6)
 
