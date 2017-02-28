@@ -1,6 +1,8 @@
 Mode share and cycling infrastructure in some European countries
 ================================================================
 
+[![DOI](https://zenodo.org/badge/83334458.svg)](https://zenodo.org/badge/latestdoi/83334458)
+
 What we've been doing.
 
 Idea:
