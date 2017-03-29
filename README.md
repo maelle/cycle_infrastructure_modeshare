@@ -31,7 +31,7 @@ Steps:
 
 -   [Join tables](code/bind_tables.R)
 
--   [Fit growth model and make a plot with flags](code/natalie_growthmodel.R)
+-   [Fit growth model and make a plot with flags](code/maelle_growthmodel.R)
 
 Outputs:
 

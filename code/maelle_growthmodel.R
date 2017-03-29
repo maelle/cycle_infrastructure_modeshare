@@ -84,7 +84,7 @@ ggplot() +
   geom_ribbon(data = boots,
               aes(by, ymin = lower, 
                   ymax = upper),
-              alpha = 0.5)+
+              alpha = 0.8)+
   geom_line(aes(norm_cycle, pred_share), color="red")+
   geom_label_repel(data = dplyr::filter(Bike, pasta_city), 
                    aes(norm_cycle, Bike, label=city), size=4)+
